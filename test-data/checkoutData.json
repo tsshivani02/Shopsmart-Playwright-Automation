@@ -1,0 +1,25 @@
+{
+  "checkoutScenarios": [
+    {
+      "testName": "First name is required",
+      "firstName": "",
+      "lastName": "Kumar",
+      "postalCode": "600001",
+      "expectedError": "Error: First Name is required"
+    },
+    {
+      "testName": "Last name is required",
+      "firstName": "Shivani",
+      "lastName": "",
+      "postalCode": "600001",
+      "expectedError": "Error: Last Name is required"
+    },
+    {
+      "testName": "Postal code is required",
+      "firstName": "Shivani",
+      "lastName": "Kumar",
+      "postalCode": "",
+      "expectedError": "Error: Postal Code is required"
+    }
+  ]
+}
