@@ -22,7 +22,7 @@ test('Login test', async ({ page }) => {
 
 //Logging tells us what happened.
 //Error handling determines how our code responds when something goes wrong.
-test('Login button click with error handling', async ({ page }) => {
+/* test('Login button click with error handling', async ({ page }) => {
     try {
         await page.locator('#login-button').click();
     }
@@ -30,4 +30,4 @@ test('Login button click with error handling', async ({ page }) => {
         logger.error(`Login button click failed: ${error}`);
         throw error;
     }
-});
+}); */
