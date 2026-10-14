@@ -39,7 +39,7 @@ export default defineConfig({
 
     //baseURL: process.env.API_BASE_URL || 'https://reqres.in/api/',  //by me
 
-    headless: false, //by me
+    //headless: false, //by me
 
     screenshot: 'only-on-failure', //by me
 
